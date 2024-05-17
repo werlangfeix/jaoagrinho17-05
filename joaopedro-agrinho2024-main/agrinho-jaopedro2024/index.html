@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="script.js">
+</head>
+<body>
+<header>
+<h1 class="titulo-principal">Roça Delivery</h1>
+</header>
+
+<header>
+    <div class="caixa">
+        
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    
+<main>
+    <section class="products">
+        <div class="product">
+            <img src="maça.jpeg" alt="Produto 1">
+            <h2>Maça</h2>
+            <p>R$/kg    ---   8,53 </p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="banana.jpeg" alt="Produto 2">
+            <h2>Banana Prata</h2>
+            <p>R$/kg   ---    9,50</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="tomate.jpeg" alt="Produto 2">
+            <h2>Tomate</h2>
+            <p>R$/kg --- 6,25</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="laranja.jpeg" alt="Produto 2">
+            <h2>Laranja</h2>
+            <p>R$/kg --- 8,49</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>R$ 129,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>R$ 129,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>R$ 129,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <!-- Adicione mais produtos aqui -->
+    </section>
+</main>
+
+<header>
+    <h1>Seu Carrinho de Compras</h1>
+</header>
+<main>
+    <section class="cart">
+        <h2>Seu Carrinho</h2>
+        <ul class="cart-items">
+            <!-- Itens do Carrinho serão adicionados aqui via JavaScript -->
+        </ul>
+        <div class="total">
+            <h3>Total: <span id="total">R$ 0,00</span></h3>
+        </div>
+        <div class="payment">
+            <h2>Forma de Pagamento</h2>
+            <select id="payment-method">
+                <option value="credit-card">Cartão de Crédito</option>
+                <option value="debit-card">Cartão de Débito</option>
+                <option value="paypal">PayPal</option>
+            </select>
+            <button id="checkout">Finalizar Compra</button>
+        </div>
+    </section>
+    
+    
+</main>
+</body>
+</html>
